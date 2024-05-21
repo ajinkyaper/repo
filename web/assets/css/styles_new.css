@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tenor+Sans&display=swap");
+.consumer {
+  background-color: #e9e8e7;
+  color: #1b2237;
+}
+.img-responsive {
+  max-width: 100%;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:visited,
+.btn-default:focus {
+  color: #fff;
+  background-color: #1b2237;
+  border-color: #1b2237;
+  min-width: 150px;
+  border-radius: 0;
+}
+.btn-view {
+  background-color: #e4ddc8;
+  padding: 12px 20px;
+  border-right: 4px solid #000;
+  border-bottom: 4px solid #000;
+}
+.btn-view:hover {
+  border-right: 4px solid #c76638;
+  border-bottom: 4px solid #c76638;
+  color: #c76638;
+  text-decoration: none;
+}
+.btn-download {
+  background-color: #e9e8e7;
+  color: #1b2237;
+  padding: 10px 15px;
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.btn-download:hover {
+  background-color: #e4ddc8;
+  color: #c76638;
+  text-decoration: none;
+}
+span.downloads {
+  border: 1px solid #fff;
+  padding: 15px 7px;
+}
+span.downloads:hover {
+  border: 1px solid #e4ddc8;
+}
+.dmdd {
+  background-color: #1b2237;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  font-family: "Tenor Sans", sans-serif;
+}
+.products h5 {
+  /*background-image:url('../images/tbg.jpg'); background-repeat:repeat-x;*/
+  position: relative;
+  background-position: right 14px;
+  font-weight: 600;
+}
+.products h5:after {
+  content: "";
+  width: calc(100% - 130px);
+  height: 1px;
+  background: #1d2236;
+  position: absolute;
+  left: 0;
+  top: 14px;
+  margin: 0 0 0 130px;
+}
+.products h5 span {
+  padding-right: 20px;
+}
+.products ul li {
+  margin-bottom: 0px;
+}
+.consumer .btn-arrow {
+  background: #e9e8e7 url(../images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: center 25px;
+  border-radius: 50%;
+  padding: 37px;
+}
+/*	.consumer .btn-arrow:hover {
+		background: #ceccca url(../images/arrow.png);
+		background-repeat: no-repeat;
+		background-position: center 25px;
+	}*/
+.products h2 {
+  font-family: "Playfair Display", serif;
+  color: #1b2237;
+  margin: 0 0 25px;
+}
+/*======passcode======*/
+.passcode {
+  background-image: url(../images/bg-passcode.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.pform {
+  width: 90%;
+  max-width: 550px;
+  background-color: #e9e8e7;
+  margin: auto;
+  padding: 30px 30px 20px 30px;
+  text-align: center;
+}
+.pform a {
+  font-size: 90%;
+  color: #020202;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:visited,
+.btn-default:focus {
+  color: #fff;
+  background-color: #1b2237;
+  border-color: #1b2237;
+  min-width: 150px;
+  border-radius: 0;
+}
+.digit-group {
+  margin-bottom: 70px;
+}
+.digit-group input {
+  width: 30px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  color: #1b2237;
+  margin: 0 2px;
+  border-bottom: 1px solid #1b2237;
+  background-color: #e9e8e7;
+  outline: 0;
+}
+/*======landing======*/
+.landing {
+  background-color: #e9e8e7;
+}
+.img-responsive {
+  max-width: 100%;
+}
+.btn-default,
+.btn-default:hover,
+.btn-default:visited,
+.btn-default:focus {
+  color: #fff;
+  background-color: #1b2237;
+  border-color: #1b2237;
+  min-width: 150px;
+  border-radius: 0;
+}
+/*======loading======*/
+
+@media (min-width: 992px) {
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  .col-md-push-6 {
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .dmdd {
+    padding: 20px 0;
+  }
+  img.sm {
+    display: none;
+  }
+
+  .loading h3 {
+    letter-spacing: 3px;
+    font-size: 1rem;
+  }
+  img.sm {
+    display: none;
+  }
+
+  .products .text-center {
+    text-align: left;
+  }
+}

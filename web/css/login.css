@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Oct, 2019, 5:58:35 PM
+    Author     : Rahul A S
+*/
+/*
+Version 2.0
+*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background:url(../img/bg_liqueur.jpg) no-repeat bottom #fff;
+    background-size:cover;
+    height: 100vh;
+    letter-spacing:.8px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom:5px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+}
+.btn-primary,.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
+    background-color: #a51b36 !important;
+    border-color: #a51b36 !important;
+    outline:none;
+}
+.inpt{
+    background:none;
+    border-color:rgba(248, 248, 248, 0.56);
+    color: #fff;
+    font-size:14px !important;
+}
+
+.logo{
+    text-align: center;
+}
+.logo img{
+    width:140px;
+    max-width:100%;  
+    margin:3.5em 0;
+}
+.form-control:focus{
+    border-color: #a51b36;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgb(165, 27, 54);
+}
+.has-error .form-control{
+    border-color:rgba(248, 248, 248, 0.56); 
+}
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label{
+    color:#fff;
+    font-size: 13px;
+    letter-spacing:1px;
+}
+.otp{
+    height:45px;
+    text-align: center;
+    letter-spacing:8px;
+    font-size:20px !important;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.otpBox{
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.bk2homLnk{
+    color: #fff;
+    letter-spacing:1px;
+    font-size:13px;
+    margin-top:3em;
+    display:block
+        
+}
+.bk2homLnk:hover,.bk2homLnk:focus{
+    color: #fff;
+    text-decoration: none;
+    color: rgba(255,255,255,.8)
+}
